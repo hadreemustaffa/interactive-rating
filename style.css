@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root {
+	--overpass: 'Overpass', sans-serif;
+
+	/* colors */
+	--orange: hsl(25, 97%, 53%);
+	--light-grey: hsl(217, 12%, 63%);
+	--medium-grey: hsl(216, 12%, 54%);
+	--dark-blue: hsl(213, 19%, 18%);
+	--very-dark-blue: hsl(216, 12%, 8%);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: var(--overpass);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+h1 {
+	font-size: 1.5rem;
+}
+p {
+	font-size: 0.93rem;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 28.3vw;
+	min-width: 335px;
+	max-width: 375px;
+	height: 51vh;
+	min-height: 335px;
+	max-height: 375px;
+	border: solid 2px black;
+	border-radius: 20px;
+	padding: 2%;
+	/* padding: 4% 3%; */
+}
+
+#star {
+	min-width: 1.25vw;
+	min-height: 1.75vh;
+}
+
+#rating {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.circle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 45px;
+	height: 45px;
+	border: solid 2px black;
+	border-radius: 50%;
+}
+
+#btn {
+	padding: 15px;
+	border-radius: 30px;
+	border-style: none;
+}
