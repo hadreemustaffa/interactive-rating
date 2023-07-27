@@ -7,29 +7,16 @@
   <link rel="stylesheet" href="style.css">
   <script type="module" src="app.js"></script>
   <title>Frontend Mentor | Interactive rating component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
 
-  <!-- Rating state start -->
   <main>
     <div class="circle">
 
       <img id="star" src="images/icon-star.svg" />
     </div>
-    <h1>
+    <h1 id="title">
       How did we do?
     </h1>
 
@@ -39,15 +26,14 @@
     </p>
 
     <section id="rating">
-      <p id="1" class="circle">1</p>
-      <p id="2" class="circle">2</p>
-      <p id="3" class="circle">3</p>
-      <p id="4" class="circle">4</p>
-      <p id="5" class="circle">5</p>
+      <button type="button" value=1 class="circle rate">1</button>
+      <button type="button" value=2 class="circle rate">2</button>
+      <button type="button" value=3 class="circle rate">3</button>
+      <button type="button" value=4 class="circle rate">4</button>
+      <button type="button" value=5 class="circle rate">5</button>
     </section>
     <button id="btn" type="submit">SUBMIT</button>
   </main>
-  <!-- Rating state end -->
 
   <!-- Thank you state start -->
 
