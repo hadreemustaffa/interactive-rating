@@ -3,7 +3,6 @@
 :root {
 	--overpass: 'Overpass', sans-serif;
 
-	/* colors */
 	--orange: hsl(25, 97%, 53%);
 	--light-grey: hsl(217, 12%, 63%);
 	--medium-grey: hsl(216, 12%, 54%);
@@ -40,12 +39,9 @@ p {
 main {
 	background: radial-gradient(
 		400px 400px at top center,
-		hsl(215, 27%, 15%),
-		hsl(215, 27%, 11%)
+		hsl(213, 22%, 18%),
+		hsl(216, 25%, 12%)
 	);
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
 	width: 28.3vw;
 	min-width: 375px;
 	max-width: 400px;
@@ -57,6 +53,17 @@ main {
 	border: none;
 	padding: 28px 32px;
 	/* padding: 4% 3%; */
+}
+
+#rating-page {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#thank-you-page {
+	display: none;
 }
 
 #star {
@@ -82,8 +89,8 @@ main {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 50px;
-	height: 50px;
+	width: 47px;
+	height: 47px;
 	border: solid 2px black;
 	border-radius: 50%;
 	border: none;
