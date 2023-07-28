@@ -4,7 +4,7 @@
 	--overpass: 'Overpass', sans-serif;
 
 	--orange: hsl(25, 97%, 53%);
-	--light-grey: hsl(217, 12%, 63%);
+	--light-grey: hsla(217, 12%, 63%, 0.07);
 	--medium-grey: hsl(216, 12%, 54%);
 	--dark-blue: hsl(213, 19%, 18%);
 	--very-dark-blue: hsl(216, 12%, 8%);
@@ -51,19 +51,43 @@ main {
 	border: solid 2px black;
 	border-radius: 20px;
 	border: none;
-	padding: 28px 32px;
 	/* padding: 4% 3%; */
 }
 
 #rating-page {
 	height: 100%;
-	display: flex;
+	/* display: flex; */
+	display: none;
 	flex-direction: column;
 	justify-content: space-between;
+	padding: 28px 32px;
 }
 
 #thank-you-page {
-	display: none;
+	height: 100%;
+	display: flex;
+	/* display: none; */
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	justify-content: space-between;
+	padding: 45px 32px;
+}
+#thank-you-img {
+	width: 175px;
+	height: auto;
+	padding-bottom: 7px;
+}
+#thank-you-title {
+	padding-bottom: 10px;
+}
+
+#submitted-rating-container {
+	line-height: 1;
+	background-color: var(--light-grey);
+	color: hsla(25, 97%, 53%, 0.7);
+	padding: 8px 20px;
+	border-radius: 20px;
 }
 
 #star {
@@ -84,7 +108,7 @@ main {
 }
 
 .circle {
-	background-color: hsla(217, 12%, 63%, 0.07);
+	background-color: var(--light-grey);
 	color: white;
 	display: flex;
 	justify-content: center;
