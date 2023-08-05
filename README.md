@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/interactive-rating-component-using-flexbox-1ZoM-Zid0G)
 - Live Site URL: [Github Pages](https://hadreemustaffa.github.io/interactive-rating/)
 
 ## My process
