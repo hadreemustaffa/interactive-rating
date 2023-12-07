@@ -95,7 +95,7 @@ h6 {
   --clr-primary-dark-blue: hsl(213, 19%, 18%);
   --clr-primary-very-dark-blue: hsl(216, 12%, 8%);
 
-  --clr-neutral-white: hsl(0, 0%, 100%);
+  --clr-neutral-white: hsl(0, 0%, 95%);
   --clr-neutral-light-grey: hsla(217, 12%, 63%);
   --clr-neutral-medium-grey: hsl(216, 12%, 54%);
 
@@ -203,13 +203,13 @@ button[type='submit'] {
   outline: transparent;
   border: transparent;
   background-color: var(--clr-accent);
-  color: var(--clr-text-heading);
+  color: var(--clr-bg-body);
   letter-spacing: 0.1em;
   transition: all 0.25s ease;
 }
 button[type='submit']:hover {
   background-color: var(--clr-bg-main-2);
-  color: var(--clr-accent);
+  color: var(--clr-bg-body);
 }
 
 .thankyou {
